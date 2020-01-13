@@ -7,5 +7,15 @@
   }
 
   .nav-bar{
+      display: flex;
+      width: 80%;
+      left: 10%;
       font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+      background-color: gray;
     }
+.box{
+    flex:1;
+}
+.img-down{
+    display: flex;
+}
