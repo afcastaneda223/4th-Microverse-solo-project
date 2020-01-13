@@ -1,0 +1,11 @@
+  
+/* RESET WEBPAGE TO DEFAULT CSS */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: inherit;
+  }
+
+  .nav-bar{
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    }
