@@ -8,14 +8,44 @@
 
   .nav-bar{
       display: flex;
-      width: 80%;
-      left: 10%;
+      position: absolute;
+      align-items: center;
+      text-align: center;
+      width: 70%;
+      height: 40px;
+      margin-top: 80px;
+      margin-left: 15%;
+      border-radius: 4px;
       font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 12px;
       background-color: gray;
     }
 .box{
-    flex:1;
+    cursor: pointer;
+    width: 100%;
+    line-height: 100%;
 }
+input {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 15px;
+    outline: 50%;
+    box-shadow: 50%;
+    color:transparent;
+    margin-right: 10px;
+}
+.search i{
+    position: absolute;
+    right: 100px;
+    bottom: 13px;
+}
+
 .img-down{
-    display: flex;
+  display: flex;
+}
+.img-down img{
+margin: 0px 1px 1px 1px;
+width: 99%;
 }
