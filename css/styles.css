@@ -8,6 +8,7 @@
 
 body {
   max-width: 1423px;
+  min-width: 1056px;
 }
 
 .nav-bar {
