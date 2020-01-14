@@ -1,16 +1,3 @@
-
-/* RESET WEBPAGE TO DEFAULT CSS */
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: inherit;
-}
-
-body {
-  max-width: 1423px;
-  min-width: 1056px;
-}
-
 .nav-bar {
   display: flex;
   position: absolute;
