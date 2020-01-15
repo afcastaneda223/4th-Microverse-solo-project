@@ -1,0 +1,163 @@
+body {
+  box-sizing: inherit;
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav-bar {
+  border-radius: 4px;
+  background: linear-gradient(to top, #555, #888 50%, #888, #777 50%);
+  color: #fff;
+  display: flex;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  left: 20%;
+  margin-top: 85px;
+  max-width: 900px;
+  max-height: 35px;
+  position: absolute;
+  width: 70%;
+}
+
+.box {
+  align-items: center;
+  border-right: 1px solid #555;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 50%;
+  color: transparent;
+  height: 16px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.search i {
+  bottom: 17px;
+  left: 6%;
+  max-width: 100px;
+  position: relative;
+}
+
+/* background */
+
+.background {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2.5fr 0.7fr;
+  z-index: 99999;
+}
+
+a:link {
+  color: #2f89cc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2f89cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links a {
+  border-right: 1px solid #333;
+  padding-right: 3px;
+}
+
+.background a:nth-child(1) {
+  grid-column: 1/ span 4;
+  grid-row: 1;
+  background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg);
+  background-position: bottom;
+  background-size: 100%;
+  color: transparent;
+}
+
+.background a:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.background a:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.background a:nth-child(4) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.background a:nth-child(5) {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+/* backgrond text */
+
+.text {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: absolute;
+  top: 200px;
+}
+
+.text div:nth-child(1) {
+  grid-row: 1;
+  margin-left: 35%;
+}
+
+.text div:nth-child(2) {
+  grid-row: 2;
+  margin-left: 30%;
+}
+
+.text div:nth-child(3) {
+  grid-row: 3;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+/* footer */
+
+.bottom-container {
+  color: #6e6e6e;
+  display: grid;
+  font-size: 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.bottom-container div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.bottom-container div:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 7px;
+}
+
+.links img {
+  position: absolute;
+}
+
+.bottom-container div:nth-child(3) {
+  grid-column: 1;
+  grid-row: 2;
+}
