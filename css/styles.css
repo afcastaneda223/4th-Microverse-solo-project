@@ -55,7 +55,12 @@ input {
   z-index: 99999;
 }
 
-a:link, a:visited {
+a:link {
+  color: #2f89cc;
+  text-decoration: none;
+}
+
+a:visited{
   color: #2f89cc;
   text-decoration: none;
 }
