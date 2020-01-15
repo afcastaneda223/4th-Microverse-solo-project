@@ -1,9 +1,8 @@
 body {
-  max-width: 1443px;
-  min-width: 1056px;
   box-sizing: inherit;
   margin: 0%;
   padding: 0%;
+
 }
 
 .nav-bar {
@@ -20,6 +19,7 @@ body {
   max-height: 35px;
   position: absolute;
   width: 70%;
+  
 }
 
 .box {
@@ -50,79 +50,72 @@ input {
 
 /* background */
 
-.img-background {
+.background {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 0.7fr 0.3fr;
+  grid-template-rows: 2.5fr 0.7fr;
   z-index: 99999;
 }
 
-.img-background img {
-  max-width: 100%;
-}
-
-.img-background div:nth-child(1) {
+.background a:nth-child(1) {
   grid-column: 1/ span 4;
   grid-row: 1;
+  background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg);
+  background-position: bottom;
+  background-size: 100%;
+  color: transparent;
 }
 
-.img-background div:nth-child(2) {
+.background a:nth-child(2) {
   grid-column: 1;
   grid-row: 2;
+
 }
 
-.img-background div:nth-child(3) {
+.background a:nth-child(3) {
   grid-column: 2;
   grid-row: 2;
 }
 
-.img-background div:nth-child(4) {
+.background a:nth-child(4) {
   grid-column: 3;
   grid-row: 2;
 }
 
-.img-background div:nth-child(5) {
+.background a:nth-child(5) {
   grid-column: 4;
   grid-row: 2;
 }
 
-.img-background div:nth-child(6) {
-  grid-column: 1 / span 4;
-  grid-row: 3;
-  margin-left: 15%;
-  width: 70%;
-}
 
-/* backgrond images */
+/* backgrond text */
 
-.img-text {
+.text {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  left: 15%;
   position: absolute;
-  top: 160px;
-  width: 70%;
+  top: 200px;
 }
 
-.img-text div:nth-child(1) {
+.text div:nth-child(1) {
   grid-row: 1;
-  margin-left: 15%;
-  width: 70%;
+  margin-left: 35%;
 }
 
-.img-text div:nth-child(2) {
+.text div:nth-child(2) {
   grid-row: 2;
-  margin-left: 15%;
-  width: 70%;
+  margin-left: 30%;
 }
 
-.img-text div:nth-child(3) {
+.text div:nth-child(3) {
   grid-row: 3;
-  margin-left: 15%;
-  width: 70%;
+  margin-top: 2%;
+  margin-left: 40%;
 }
 
 /* bottom container */
+/* footer*/
+
 
 .bottom-container {
   color: #6e6e6e;
@@ -132,17 +125,20 @@ input {
   font-weight: 400;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin-top: 10px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .bottom-container div:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
+
 }
 
 .bottom-container div:nth-child(2) {
   grid-column: 2;
   grid-row: 1;
+margin-top: 10px;
 }
 
 .links a {
@@ -159,7 +155,7 @@ input {
   grid-row: 2;
 }
 
-a:link {
+a:link, a:visited {
   color: #2f89cc;
   text-decoration: none;
 }
