@@ -48,6 +48,20 @@ input {
 
 /* background */
 
+a:link {
+  color: #2f89cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #2f89cc;
+  text-decoration: none;
+}
+
 .background {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -148,18 +162,4 @@ input {
   grid-column: 1;
   grid-row: 2;
   margin-top: 3px;
-}
-
-a:link {
-  color: #2f89cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #2f89cc;
-  text-decoration: none;
 }
