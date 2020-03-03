@@ -2,6 +2,10 @@
 
 > This is the fourth project of Microverse.
 
+![screenshot](./assets/screenshot.png)
+
+## Live link
+
 https://raw.githack.com/afcastaneda223/4th-Microverse-solo-project/master/index.html
 
 BUILDING WITH BACKGROUNDS AND GRADIENTS
